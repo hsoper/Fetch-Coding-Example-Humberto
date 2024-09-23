@@ -7,9 +7,9 @@ class Items {
 
     constructor(json: JSONArray){
         for(item in 0 until json.length()){
-            var item  = Item(json.getJSONObject(item))
-            if(item.name != "") {
-                _items.add(item)
+            var item1  = Item(json.getJSONObject(item))
+            if(item1.name != "") {
+                _items.add(item1)
             }
         }
     }
